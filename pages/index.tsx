@@ -1,3 +1,7 @@
+import styled from '@emotion/styled';
+
 export default function Home() {
-  return <div>HELLO WORLD</div>;
+  return <Root>HOME</Root>;
 }
+
+const Root = styled.div``;
